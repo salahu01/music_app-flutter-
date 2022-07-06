@@ -66,7 +66,7 @@ In Visual Studio Code, navigate to `Preferences` -> `Settings` and search for `F
 * [Local Database](https://pub.dev/packages/hive)
 * [Provider](https://pub.dev/packages/provider) (State Management)
 * [Data fetching](https://pub.dev/packages/on_audio_query)
-* [Notifications](https://pub.dev/packages/just_audio_background)
+* [Background paly](https://pub.dev/packages/just_audio_background)
 * [play conrolls](https://pub.dev/packages/just_audio)
 * [icon](https://pub.dev/packages/flutter_launcher_icons)
 
