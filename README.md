@@ -11,7 +11,7 @@ A Music Player project created in flutter using provider. Boilerplate supports a
 Download or clone this repo by using the link below:
 
 ```
-git@github.com:salahu01/music_app-flutter-.git
+git clone https://github.com/salahu01/music_app-flutter-.git
 ```
 
 **Step 2:**
