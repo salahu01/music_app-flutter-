@@ -3,11 +3,11 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:just_audio_background/just_audio_background.dart';
+import 'package:music_app/app/src/model/playlist_model.dart';
 
-import 'functions/functions.dart';
-import 'model/playlist_model.dart';
-import 'screens/splash_screen.dart';
-import 'screens/theme.dart';
+import 'app/core/services/functions.dart';
+import 'app/src/view/screens/splash_screen.dart';
+import 'app/src/view/screens/theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
