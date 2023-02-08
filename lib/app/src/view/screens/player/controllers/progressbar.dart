@@ -1,7 +1,7 @@
 import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
 import 'package:flutter/material.dart';
 import '../../../../../core/services/functions.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 
 class ProgressBarscreen extends StatelessWidget {
   const ProgressBarscreen({Key? key,this.barHeight,this.fontsize,this.thumbRadius}) : super(key: key);

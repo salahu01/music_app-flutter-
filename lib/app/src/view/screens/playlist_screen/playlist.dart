@@ -8,7 +8,7 @@ import 'package:music_app/app/src/view/screens/miniplayer/mini_player.dart';
 import 'package:music_app/app/src/view/screens/player/player.dart';
 import 'package:music_app/app/src/view/screens/playlist_screen/addsongs/add_songs.dart';
 import 'package:music_app/app/src/view/screens/playlist_screen/playlist_builder.dart';
-import 'package:music_app/app/src/view/screens/theme.dart';
+import 'package:music_app/app/core/theme/theme.dart';
 import '../../../../core/services/functions.dart';
 
 class PlayListScreen extends StatefulWidget {

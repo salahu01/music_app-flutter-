@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:music_app/app/src/model/playlist_functions.dart';
 import 'package:music_app/app/src/model/playlist_model.dart';
 import '../../pages/musics/musics.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 import '../playlist.dart';
 import 'add_song_builder.dart';
 

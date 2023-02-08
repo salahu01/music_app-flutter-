@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:just_audio/just_audio.dart';
 
 import '../../../../../core/services/functions.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 
 class LoopButton extends StatelessWidget {
   const LoopButton({Key? key}) : super(key: key);

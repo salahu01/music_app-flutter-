@@ -6,7 +6,7 @@ import '../../../../core/services/functions.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 import '../main_page.dart';
 import '../pages/musics/musics.dart';
-import '../theme.dart';
+import '../../../../core/theme/theme.dart';
 import 'controllers/addtoplaylist/addtoplaylist.dart';
 import 'controllers/favourite.dart';
 import 'controllers/loop_modes.dart';

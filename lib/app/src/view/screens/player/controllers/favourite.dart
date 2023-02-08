@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../../../core/services/functions.dart';
 import '../../main_page.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 
 class FavButton extends StatefulWidget {
   const FavButton({Key? key, required this.index}) : super(key: key);

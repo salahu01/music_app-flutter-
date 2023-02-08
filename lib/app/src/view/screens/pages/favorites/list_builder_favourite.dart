@@ -4,7 +4,7 @@ import 'package:on_audio_query/on_audio_query.dart';
 
 import '../../../../../core/services/functions.dart';
 import '../../main_page.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 import '../musics/musics.dart';
 
 class FavouriteListBuilder extends StatelessWidget {

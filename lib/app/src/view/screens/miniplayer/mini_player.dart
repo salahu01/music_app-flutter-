@@ -7,7 +7,7 @@ import '../../../../core/services/functions.dart';
 import '../main_page.dart';
 import '../player/controllers/play_pause.dart';
 import '../player/controllers/progressbar.dart';
-import '../theme.dart';
+import '../../../../core/theme/theme.dart';
 
 class MiniPLayerScreen extends StatefulWidget {
   const MiniPLayerScreen({Key? key}) : super(key: key);

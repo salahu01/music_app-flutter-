@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../pages/musics/musics.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 import 'add_songs.dart';
 
 //*return tile add and remove button model

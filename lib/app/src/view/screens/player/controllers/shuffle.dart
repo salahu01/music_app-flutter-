@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../../core/services/functions.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 
 class Shuffle extends StatefulWidget {
     const Shuffle({Key? key}) : super(key: key);

@@ -5,7 +5,7 @@ import '../../widgets/custom_widgets.dart';
 import '../main_page.dart';
 import '../pages/musics/musics.dart';
 import '../pages/playlist/addplaylist/add_details.dart';
-import '../theme.dart';
+import '../../../../core/theme/theme.dart';
 
 //*Search returntile model
 class SearchTile extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../screens/theme.dart';
+import '../../../../core/theme/theme.dart';
 
 //*returning model tile
 class GridBuilder extends StatefulWidget {

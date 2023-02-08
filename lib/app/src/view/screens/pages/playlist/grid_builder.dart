@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:music_app/app/src/model/playlist_functions.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 
 //*returning model tile
 class GridBuilder extends StatefulWidget {

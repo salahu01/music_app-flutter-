@@ -7,7 +7,7 @@ import '../../../../../core/services/functions.dart';
 import '../../main_page.dart';
 import '../../player/player.dart';
 import '../../search/search.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 import 'list_builder_music.dart';
 
 class Musics extends StatefulWidget {

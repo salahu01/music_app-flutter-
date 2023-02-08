@@ -5,7 +5,7 @@ import '../../../../core/services/functions.dart';
 import '../main_page.dart';
 import '../../screens/player/player.dart';
 import '../../screens/search/search.dart';
-import '../../screens/theme.dart';
+import '../../../../core/theme/theme.dart';
 import '../musics/musics.dart';
 import 'list_builder_favourite.dart';
 

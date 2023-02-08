@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-import 'splash_screen.dart';
+import '../../src/view/screens/splash_screen.dart';
 
 class Themecolors {
   static bool? returnvalue;

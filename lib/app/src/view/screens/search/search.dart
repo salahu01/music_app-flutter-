@@ -5,7 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../../core/services/functions.dart';
 import '../pages/musics/musics.dart';
 import '../player/player.dart';
-import '../theme.dart';
+import '../../../../core/theme/theme.dart';
 import 'search_builder.dart';
 
 class SearchScreen extends StatefulWidget {

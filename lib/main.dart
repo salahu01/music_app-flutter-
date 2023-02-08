@@ -7,7 +7,7 @@ import 'package:music_app/app/src/model/playlist_model.dart';
 
 import 'app/core/services/functions.dart';
 import 'app/src/view/screens/splash_screen.dart';
-import 'app/src/view/screens/theme.dart';
+import 'app/core/theme/theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

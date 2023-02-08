@@ -5,7 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 import '../../../widgets/custom_widgets.dart';
 import '../../main_page.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 
 class MusicListBuilder extends StatelessWidget {
   const MusicListBuilder({Key? key, required this.index, required this.item})

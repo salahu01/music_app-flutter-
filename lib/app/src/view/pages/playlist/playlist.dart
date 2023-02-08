@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../screens/playlist_screen/playlist.dart';
 import '../../screens/search/search.dart';
-import '../../screens/theme.dart';
+import '../../../../core/theme/theme.dart';
 import 'addplaylist/add_details.dart';
 import 'grid_builder.dart';
 

@@ -6,7 +6,7 @@ import 'package:music_app/app/core/services/functions.dart';
 import 'package:music_app/app/src/model/playlist_model.dart';
 import 'package:music_app/app/src/view/screens/pages/musics/musics.dart';
 import 'package:music_app/app/src/view/screens/splash_screen.dart';
-import 'package:music_app/app/src/view/screens/theme.dart';
+import 'package:music_app/app/core/theme/theme.dart';
 
 class CustomWidgets {
   static more(context, index, item) {

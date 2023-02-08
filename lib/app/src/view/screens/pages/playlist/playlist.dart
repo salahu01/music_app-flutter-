@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:music_app/app/src/model/playlist_functions.dart';
 import '../../playlist_screen/playlist.dart';
 import '../../search/search.dart';
-import '../../theme.dart';
+import '../../../../../core/theme/theme.dart';
 import 'addplaylist/add_details.dart';
 import 'grid_builder.dart';
 

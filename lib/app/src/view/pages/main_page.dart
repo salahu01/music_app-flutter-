@@ -10,7 +10,7 @@ import 'favorites/favorites.dart';
 import 'musics/musics.dart';
 import 'playlist/playlist.dart';
 import '../screens/player/player.dart';
-import '../screens/theme.dart';
+import '../../../core/theme/theme.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);

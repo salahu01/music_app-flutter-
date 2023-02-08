@@ -5,7 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../widgets/custom_widgets.dart';
-import '../../screens/theme.dart';
+import '../../../../core/theme/theme.dart';
 import 'about.dart';
 
 class Details extends StatefulWidget {
