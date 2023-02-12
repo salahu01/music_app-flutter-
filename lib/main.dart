@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         builder: (context, orientation, deviceType) => MaterialApp(
           theme: AppTheme.dark,
           debugShowCheckedModeBanner: false,
-          home: MainPage(),
+          home: const MainPage(),
         ),
       ),
     );
