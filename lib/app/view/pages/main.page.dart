@@ -16,7 +16,6 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ctrl = context.watch<MainPageController>();
-    log(ctrl.index.toString());
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(

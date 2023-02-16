@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:music_app/app/configs/themes/app_theme.dart';
 import 'package:music_app/app/controller/main.page.controller.dart';
+import 'package:music_app/app/controller/musics_controller.dart';
 import 'package:music_app/app/view/pages/main.page.dart';
 import 'package:sizer/sizer.dart';
 import 'package:provider/provider.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => MainPageController()),
+        ChangeNotifierProvider(create: (_) => MusicsController()),
       ],
       child: Sizer(
         builder: (context, orientation, deviceType) => MaterialApp(
