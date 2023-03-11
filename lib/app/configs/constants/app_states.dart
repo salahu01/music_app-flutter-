@@ -1,8 +1,19 @@
-//* This is musics States
-enum MusicsState { isLoading, isLoaded, hasEmptyMusics, hasError }
+//* State
+import 'package:flutter/material.dart';
 
-//* This is playLists States
-enum PlayListsState { isLoading, isLoaded, hasEmptyPlayList, hasError }
+enum KState { loading, loaded, empty, error }
 
-//* This is favourites States
-enum FavouritesState { isLoading, isLoaded, hasEmptyFavourite, hasError }
+//* State Provider
+abstract class SateProvider extends ChangeNotifier {
+
+  //* This methord for update ui
+  void update(void Function() update) {
+    update();
+    notifyListeners();
+  }
+
+  //* This methord for get Widget depend on state
+  static Widget widget({required KState state, required Widget loaded, Widget? loading, Widget? empty, Widget? error}) {
+    return {KState.loading: loading, KState.empty: empty, KState.error: error}[state] ?? loaded;
+  }
+}

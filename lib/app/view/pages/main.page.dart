@@ -1,13 +1,13 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:music_app/app/configs/constants/app_states.dart';
 import 'package:music_app/app/configs/themes/app_colors.dart';
 import 'package:music_app/app/controller/main.page.controller.dart';
 import 'package:music_app/app/view/pages/favourites.dart';
 import 'package:music_app/app/view/pages/musics.dart';
 import 'package:music_app/app/view/pages/playlists.dart';
 import 'package:music_app/app/view/pages/settings.dart';
+import 'package:music_app/app/view/widgets/common.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
 
@@ -23,15 +23,19 @@ class MainPage extends StatelessWidget {
       ),
       resizeToAvoidBottomInset: false,
       body: SafeArea(
-        child: PageView(
-          controller: ctrl.pageConteroller,
-          onPageChanged: ctrl.changePage,
-          children: const [
-            PlayLists(),
-            Musics(),
-            Favourites(),
-            Settings(),
-          ],
+        child: SateProvider.widget(
+          state: ctrl.state,
+          loading: loading,
+          loaded: PageView(
+            controller: ctrl.pageConteroller,
+            onPageChanged: ctrl.changePage,
+            children: const [
+              PlayLists(),
+              Musics(),
+              Favourites(),
+              Settings(),
+            ],
+          ),
         ),
       ),
       bottomNavigationBar: BottomAppBar(
