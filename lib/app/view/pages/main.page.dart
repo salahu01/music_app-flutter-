@@ -18,9 +18,7 @@ class MainPage extends StatelessWidget {
     final ctrl = context.watch<MainPageController>();
     return Scaffold(
       backgroundColor: AppColors.background,
-      appBar: AppBar(
-        title: Text(ctrl.title),
-      ),
+      appBar: AppBar(title: Text(ctrl.title)),
       resizeToAvoidBottomInset: false,
       body: SafeArea(
         child: SateProvider.widget(

@@ -1,5 +1,8 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:music_app/app/configs/constants/app_states.dart';
+import 'package:music_app/app/models/song.model.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 
 class MainPageController extends SateProvider {
@@ -18,7 +21,7 @@ class MainPageController extends SateProvider {
   String _title = 'Musics';
   final _titles = ['PlayLists', 'Musics', 'Favourite', 'Settings'];
   KState _state = KState.loading;
-  late List<SongModel> songs;
+  List<KSongModel> songs = [];
   final _audioQuery = OnAudioQuery();
 
   // seters
@@ -39,7 +42,12 @@ class MainPageController extends SateProvider {
 
   void getSongs() async {
     !await _audioQuery.permissionsStatus() ? await _audioQuery.permissionsRequest() : null;
-    songs = await _audioQuery.querySongs();
+    final querySongs = await _audioQuery.querySongs();
+    for (var e in querySongs) {
+      final image = await _audioQuery.queryArtwork(e.id, ArtworkType.AUDIO);
+    
+      songs.add(KSongModel(song: e, image: image));
+    }
     update(() => _state = KState.loaded);
   }
 }
